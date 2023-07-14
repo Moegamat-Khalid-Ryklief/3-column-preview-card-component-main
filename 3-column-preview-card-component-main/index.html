@@ -3,10 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
-  <title>Frontend Mentor | 3-column preview card component</title>
+  <title>3-column preview card</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -21,7 +19,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Red+Hat+Display:wght@500;700;900&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body style="font-family: 'Lexend Deca'; font-size: 15px;">
-  <div class="three-column-preview-card" style="display: grid; grid-template-columns: 1fr 1fr 1fr; max-width: 790px;">
+  <div style="width: 100vw; height: 100vh; display: flex; flex-direction: row; justify-content: center; align-items: center;">
+    <div class="three-column-preview-card" style="display: grid; grid-template-columns: 1fr 1fr 1fr; max-width: 790px;">
     <div style="background-color: hsl(31, 77%, 52%); padding: 35px 35px 40px;">
       <img src="./images/icon-sedans.svg" alt="" style="width: 50px; margin-bottom: 10px;">
       <h1 style="font-family: 'Big Shoulders Display'; text-transform: uppercase; color: white;">Sedans</h1> 
@@ -53,12 +52,7 @@
       </button>
     </div>
   </div>
-      
 
-      
-
-    
-  
-  
+  </div>
 </body>
 </html>
