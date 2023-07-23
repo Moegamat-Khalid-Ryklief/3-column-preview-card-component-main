@@ -11,6 +11,7 @@
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
+  <link rel="stylesheet" href="../styles/styles.css" type="text/css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Red+Hat+Display:wght@500;700;900&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
@@ -18,36 +19,36 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Red+Hat+Display:wght@500;700;900&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
-<body style="font-family: 'Lexend Deca'; font-size: 15px;">
-  <div style="width: 100vw; height: 100vh; display: flex; flex-direction: row; justify-content: center; align-items: center;">
-    <div class="three-column-preview-card" style="display: grid; grid-template-columns: 1fr 1fr 1fr; max-width: 790px;">
-    <div style="background-color: hsl(31, 77%, 52%); padding: 35px 35px 40px;">
-      <img src="./images/icon-sedans.svg" alt="" style="width: 50px; margin-bottom: 10px;">
-      <h1 style="font-family: 'Big Shoulders Display'; text-transform: uppercase; color: white;">Sedans</h1> 
-      <p style="font-size: 12px; line-height: 20px; margin-bottom: 62px; color: rgba(255, 255, 255, 0.664);">Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city 
+<body>
+  <div class="centering-container">
+    <div class="three-column-preview-card">
+    <div class="sedan-container">
+      <img class="icon" src="./images/icon-sedans.svg" alt="">
+      <h1 class="heading">Sedans</h1> 
+      <p class="description">Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city 
         or on your next road trip.</p> 
 
-      <button style="padding: 11px 22px; border-radius: 20px; border: none; font-size: 12px; color: hsl(31, 77%, 52%); font-family: 'Lexend Deca';">
+      <button class="learn-more-button learn-more-button-sedan">
         Learn More
       </button>
     </div>
-    <div style="background-color: hsl(184, 100%, 22%); padding: 35px;">
-      <img src="./images/icon-suvs.svg" alt="" style="width: 50px; margin-bottom: 10px;">
-      <h1 style="font-family: 'Big Shoulders Display'; text-transform: uppercase; color: white;">SUVs</h1> 
-      <p style="font-size: 12px; line-height: 20px; margin-bottom: 62px; color: rgba(255, 255, 255, 0.664);">Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation 
+    <div class="suv-container">
+      <img class="icon" src="./images/icon-suvs.svg" alt="">
+      <h1 class="heading">SUVs</h1> 
+      <p class="description">Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation 
         and off-road adventures.
       </p>
-      <button style="padding: 11px 22px; border-radius: 20px; border: none; font-size: 12px; color: hsl(184, 100%, 22%); font-family: 'Lexend Deca';">
+      <button class="learn-more-button learn-more-button-suv">
         Learn More
       </button>
     </div>
-    <div style="background-color: hsl(179, 100%, 13%); padding: 35px;">
-      <img src="./images/icon-luxury.svg" alt="" style="width: 50px; margin-bottom: 10px;">
-      <h1 style="font-family: 'Big Shoulders Display'; text-transform: uppercase; color: white;">Luxury</h1> 
-      <p style="font-size: 12px; line-height: 20px; margin-bottom: 62px; color: rgba(255, 255, 255, 0.664);">Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury 
+    <div class="luxury-container">
+      <img class="icon" src="./images/icon-luxury.svg" alt="">
+      <h1 class="heading">Luxury</h1> 
+      <p class="description">Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury 
         rental and arrive in style.</p> 
 
-      <button style="padding: 11px 22px; border-radius: 20px; border: none; font-size: 12px; color: hsl(179, 100%, 13%); font-family: 'Lexend Deca';">
+      <button class="learn-more-button learn-more-button-luxury">
         Learn More
       </button>
     </div>

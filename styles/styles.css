@@ -1,0 +1,95 @@
+body{
+  font-family: 'Lexend Deca'; 
+  font-size: 15px;
+  background-color: hsl(0, 0%, 95%);
+}
+
+.three-column-preview-card{
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr; 
+  max-width: 790px;
+}
+
+.sedan-container{
+  background-color: hsl(31, 77%, 52%); 
+  padding: 35px 35px 40px;
+  border-radius: 5px 0 0 5px;
+}
+
+.suv-container{
+  background-color: hsl(184, 100%, 22%); 
+  padding: 35px;
+}
+
+.luxury-container{
+  background-color: hsl(179, 100%, 13%); 
+  padding: 35px;
+  border-radius: 0 5px 5px 0;
+}
+
+.icon{
+  width: 50px; 
+  margin-bottom: 10px;
+}
+
+.heading{
+  font-family: 'Big Shoulders Display'; 
+  text-transform: uppercase; 
+  color: hsl(0, 0%, 95%);
+}
+
+.description{
+  font-size: 12px; 
+  line-height: 20px; 
+  margin-bottom: 62px; 
+  color: rgba(255, 255, 255, 0.664);
+}
+
+.learn-more-button{
+  padding: 11px 22px; 
+  border-radius: 20px; 
+  border: none; 
+  font-size: 12px; 
+  font-family: 'Lexend Deca';
+  background-color: hsl(0, 0%, 95%);
+}
+
+.learn-more-button-sedan{
+  color: hsl(31, 77%, 52%); 
+}
+
+.learn-more-button-suv{
+  color: hsl(184, 100%, 22%)
+}
+
+.learn-more-button-luxury{
+  color: hsl(179, 100%, 13%)
+}
+
+
+@media (min-width: 900px){
+  .centering-container{
+    width: 100%; 
+    height: 100svh; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center;
+  }
+}
+
+@media (max-width: 899px){
+  .three-column-preview-card{
+    grid-template-columns: 1fr;
+    margin: 4em auto;
+    width: 40%;
+  }
+
+  .sedan-container{
+    border-radius: 5px 5px 0 0;
+  }
+
+  .luxury-container{
+    border-radius: 0 0 5px 5px;
+  }
+}
